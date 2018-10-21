@@ -10,3 +10,5 @@ Goal was to create pretty okay code, which doesn't use too much RAM and does not
 When data reception process is started, MCU will init bus, then wait for rising edge - start of data bit. It will wait for a fixed time
 and check if pin state has changed. If it's low state - it means '0'. When high - '1' and will wait until falling edge occurs. 
 Then the whole cycle repeats.
+
+.c file contains some initialisation parameters.
